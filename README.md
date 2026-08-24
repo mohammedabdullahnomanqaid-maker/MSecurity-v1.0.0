@@ -48,7 +48,9 @@ The application provides intuitive, user-facing tools aimed at generating strong
 <img src="Screenshots/Password-Genrator.png" alt="Password Generator" width="800">
 
 </details>
+
 ---
+
 ## <a id="architecture--design"></a>Architecture & Design
 - **Desktop Utility Architecture:** Structured around Windows Forms components to deliver responsive utility features, focusing on secure client-side data handling and interactive user controls.
 ---
