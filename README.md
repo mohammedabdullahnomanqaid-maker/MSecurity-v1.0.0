@@ -24,8 +24,7 @@ The application provides intuitive, user-facing tools aimed at generating strong
 ### 🎨 Modern UI
 - **Visual Design:** Contemporary user interface incorporating dark-themed aesthetics and interactive elements to optimize user experience.
 ---
-## <a id="screenshots"></a>Screenshots
-## 📸 Screenshots
+##  📸 <a id="screenshots"></a>Screenshots
 
 <details>
 <summary><strong>View Screenshots</strong></summary>
@@ -36,9 +35,13 @@ The application provides intuitive, user-facing tools aimed at generating strong
 
 <img src="Screenshots/Dashboard.png" alt="Dashboard" width="800">
 
+
+
 ### 🔐 Encrypted
 
 <img src="Screenshots/Encrypted.png" alt="Encrypted" width="800">
+
+
 
 ### 🔑 Password Generator
 
@@ -62,4 +65,4 @@ The application provides intuitive, user-facing tools aimed at generating strong
 This project is open-source and available under the **MIT License**. You are free to use, modify, and distribute it in any way you choose, provided that proper copyright and attribution to the original author are maintained.
 ---
 ## <a id="author"></a>Author
-- **Developer:** Mohammed Abdullah Noman
+- **Developer:** Mohammed Abdullah Noman Qaid Mohammed 
