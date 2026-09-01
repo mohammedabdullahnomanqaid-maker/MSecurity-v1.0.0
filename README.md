@@ -1,70 +1,171 @@
-# 🛡️ MSecurity (v1.0.0)
-«A personal data security desktop application built with C# and Windows Forms, featuring a robust password generator and a secure text encryption/decryption system.»
+# 🛡️ MSecurity — v1.0.0
+
+<p align="center">
+  <img src="Screenshots/Dashboard.png" alt="MSecurity Dashboard" width="900">
+</p>
+
+<p align="center">
+  <strong>Security Utility Desktop Application</strong>
+  <br>
+  <sub>Generate Passwords • Encrypt • Decrypt</sub>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C%23-WinForms-blue" alt="C# WinForms">
+  <img src="https://img.shields.io/badge/Version-v1.0.0-informational" alt="Version">
+  <img src="https://img.shields.io/badge/Status-Completed-success" alt="Status">
+</p>
+
 ---
-## 📑 Table of Contents
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Screenshots](#screenshots)
-- [Architecture & Design](#architecture--design)
-- [Technologies](#technologies)
-- [License](#license)
-- [Author](#author)
+
+## 📌 Overview
+
+**MSecurity** is a desktop application developed with **C# and Windows Forms**, bringing together password generation and text encryption/decryption in a simple interface.
+
+The project focuses on practical implementation of user input, character selection, password generation, encryption, decryption, and Windows Forms event handling.
+
 ---
-## <a id="overview"></a>Overview
-MSecurity is a personal data security utility designed to enhance digital safety through specialized cryptographic and utility features. Developed using C# and Windows Forms, the project serves as a practical step in exploring application security, text processing, and data privacy mechanics within a modern desktop environment. 
-The application provides intuitive, user-facing tools aimed at generating strong authentication credentials and securing sensitive text information using custom keys.
----
-## <a id="key-features"></a>Key Features
+
+## ✨ Features
+
 ### 🔑 Password Generator
-- **Advanced Generation:** Specialized utility designed to produce strong and complex passwords.
-- **Full Character Control:** Complete customization options allowing users to include or exclude uppercase letters, lowercase letters, numbers, and symbols to maximize security levels.
-### 🔒 Data Encryption
-- **Secure Text Processing:** Dedicated system for encrypting and decrypting text strings.
-- **Custom Key Support:** Utilizes custom keys to protect information privacy and ensure safe communication or storage of sensitive data.
-### 🎨 Modern UI
-- **Visual Design:** Contemporary user interface incorporating dark-themed aesthetics and interactive elements to optimize user experience.
+
+Generate passwords according to the selected options:
+
+- 🔠 Capital Letters
+- 🔡 Small Letters
+- 🔢 Numbers
+- 🔣 Symbols
+- 📏 Password Length
+
+### 🔐 Encryption & Decryption
+
+- 🔒 Encrypt text using a custom key.
+- 🔓 Decrypt encrypted text using the provided key.
+
+### 🧹 Controls
+
+- Clear generated password.
+- Reset the available password-generation selections.
+
 ---
-##  📸 <a id="screenshots"></a>Screenshots
+
+## 🖼️ Screenshots
 
 <details>
-<summary><strong>View Screenshots</strong></summary>
+<summary><strong>🔒 Encryption</strong></summary>
 
 <br>
 
-### 📊 Dashboard
+<p align="center">
+  <img src="Screenshots/Encrypted.png" alt="MSecurity Encryption" width="850">
+</p>
 
-<img src="Screenshots/Dashboard.png" alt="Dashboard" width="800">
+</details>
 
+<details>
+<summary><strong>🔑 Password Generator</strong></summary>
 
+<br>
 
-### 🔐 Encrypted
-
-<img src="Screenshots/Encrypted.png" alt="Encrypted" width="800">
-
-
-
-### 🔑 Password Generator
-
-<img src="Screenshots/Password-Genrator.png" alt="Password Generator" width="800">
+<p align="center">
+  <img src="Screenshots/Password-Genrator.png" alt="MSecurity Password Generator" width="850">
+</p>
 
 </details>
 
 ---
 
-## <a id="architecture--design"></a>Architecture & Design
-- **Desktop Utility Architecture:** Structured around Windows Forms components to deliver responsive utility features, focusing on secure client-side data handling and interactive user controls.
----
-## <a id="technologies"></a>Technologies
+## 🛠️ Technology
 
-| Technology | Purpose |
-| :--- | :--- |
-| **C#** | Core programming language |
-| **.NET (WinForms)** | Desktop user interface framework |
-| **Modern UI** | Visual layout and styling implementation |
+<p align="center">
+
+| Technology | Usage |
+|:---:|---|
+| **C#** | Application development |
+| **Windows Forms** | Desktop UI |
+| **.NET** | Application framework |
+
+</p>
 
 ---
-## <a id="license"></a>License
-This project is open-source and available under the **MIT License**. You are free to use, modify, and distribute it in any way you choose, provided that proper copyright and attribution to the original author are maintained.
+
+## 📂 Project Structure
+
+    MSecurity-v1.0.0/
+    │
+    ├── 📁 Properties/
+    ├── 📁 Resources/
+    ├── 📁 Screenshots/
+    │   ├── 🖼️ Dashboard.png
+    │   ├── 🖼️ Encrypted.png
+    │   └── 🖼️ Password-Genrator.png
+    │
+    ├── 📄 Form1.cs
+    ├── 📄 Form1.Designer.cs
+    ├── 📄 Form1.resx
+    │
+    ├── 📄 FrmMSecurity.cs
+    ├── 📄 FrmMSecurity.Designer.cs
+    ├── 📄 FrmMSecurity.resx
+    │
+    ├── 📄 frmEncrypt.cs
+    ├── 📄 frmEncrypt.Designer.cs
+    ├── 📄 frmEncrypt.resx
+    │
+    ├── 📄 frmEncrypted.cs
+    ├── 📄 frmEncrypted.Designer.cs
+    ├── 📄 frmEncrypted.resx
+    │
+    ├── 📄 Program.cs
+    ├── ⚙️ App.config
+    │
+    ├── 📦 GeneratePasssword.csproj
+    ├── 📦 GeneratePasssword.sln
+    │
+    ├── 🎨 MSecurityIcon.ico
+    ├── 🎨 1775822016127.ico
+    │
+    └── 📄 README.md
+
 ---
-## <a id="author"></a>Author
-- **Developer:** Mohammed Abdullah Noman Qaid Mohammed 
+
+## 📅 Timeline
+
+<p align="center">
+
+**🚀 2026/04/16**  
+*Project Started*
+
+&nbsp;&nbsp;&nbsp;&nbsp;➜&nbsp;&nbsp;&nbsp;&nbsp;
+
+**✅ 2026/04/16**  
+*Project Completed*
+
+</p>
+
+> ⏱️ **Development Duration:** 1 Day
+
+---
+
+## 📦 Release
+
+### `v1.0.0`
+
+**Initial Release**
+
+---
+
+## 👨‍💻 Author
+
+<p align="center">
+  <strong>Mohammed Abdullah Noman Qaid Mohammed</strong>
+</p>
+
+---
+
+<p align="center">
+  🛡️ <strong>MSecurity</strong>
+  <br>
+  <sub>Generate • Encrypt • Decrypt</sub>
+</p>
